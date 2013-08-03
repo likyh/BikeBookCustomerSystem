@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMain"
+    tools:ignore="MergeRootFrame" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+	    <ImageButton
+	        android:id="@+id/top_bike_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="60dp"
+	        android:background="@drawable/login_top_bike"
+	        android:contentDescription="@string/top_bike_button"
+	        android:scaleType="centerInside" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_back"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="152dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/login_welcome"
+                android:src="@drawable/welcome_to_back" />
+
+            <EditText
+                android:id="@+id/input_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/input_hips_card"
+                android:ems="10"
+                android:hint="@string/input_hips_card"
+                android:inputType="number"
+                android:minWidth="280dp" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/input_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="@string/number_input_hint"
+                android:inputType="number"
+                android:minWidth="280dp" />
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/login_button"
+                android:contentDescription="@string/login_button"
+                android:minWidth="280dp"
+                android:src="@drawable/login_button"
+                android:text="@string/login_button"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/login_goto_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingTop="12dp"
+                android:text="@string/login_goto_register"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
+    

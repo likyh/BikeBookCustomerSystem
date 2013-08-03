@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">自行车预订系统</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_quit">退出</string>
+    <string name="input_hips_card">卡号</string>
+    <string name="login_goto_register">新用户？</string>
+    <string name="top_bike_button">top_bike_button</string>
+    <string name="login_welcome">welcome</string>
+    <string name="login_button">登录</string>
+    <string name="number_input_hint">学号</string>
+    <string name="register_new_user">注册新用户</string>
+    <string name="input_hips_name">姓名</string>
+    <string name="register_button">创建新用户</string>
+    <string name="register_goto_login">已经注册？</string>
+    <string name="infor_title">我的预订</string>
+
+</resources>
